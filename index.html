@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>clase 06 ok</title>
+    <style media="screen">
+
+      body {
+      margin: 0;
+      background-color: #D7DBDD;
+      font-family: sans-serif;
+      font-size:16px;
+      }
+      hr{
+      display: inline-block;
+      unicode-bidi: isolate;
+      margin: 0;
+      overflow: hidden;
+      border-width: 1px solid;
+      padding: 0;
+      }
+      td {
+        font-size: 0.7em;
+        text-align: justify;
+        padding: 5px;
+      }
+      .barras{
+        background-color: #FF5733;
+        color: white;
+        padding: 1px;
+        display: table-cell;
+        width: 25%;
+      }
+      .gris {
+         background-color: green;
+      }
+
+      h2 {
+      font-size: 1em;
+      }
+      h3 {
+      font-size: 1em;
+      color:#FF5733;
+      }
+      p{
+      font-size: 0.7em;
+      text-align: justify;
+      padding: inherit;
+      }
+      ul li{
+      margin:0;
+      padding: 0;
+      list-style-type: disc;
+      font-size: 0.7em;
+      }
+      .header {
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .main {
+        width: 80%;
+        background-color: white;
+        margin: 0 auto;
+        text-align: left;
+        clear: both;
+        overflow: hidden;
+      }
+
+      .left {
+        width: 60%;
+        float: left;
+      }
+      .right {
+        width: 40%;
+        float: left;
+        height: 20px;
+      }
+
+      footer {
+        clear: both;
+        background-color: white;
+        font-size: 0.6em;
+        text-align: right;
+        min-height: 30px;
+        width: 80%;
+        margin: 0px auto;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h2>HOLA MI NOMBRE ES <span style="color:#FF5733">CARMEN</span> Y ESTE ES MI RESUMEN</h2>
+    </div>
+
+    <div class="main">
+
+      <div class="left">
+        <div>
+          <h3> // ACERCA DE </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+        </div>
+
+        <div>
+          <h3> // EDUCACIÓN </h3>
+          <table>
+            <tr>
+              <td> <strong> 2018 </strong> </td>
+              <td> <strong>Lorem ipsum dolor sit amet</strong> <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+            <tr>
+              <td><strong> 1986 </strong></td>
+              <td style= "gris"> <strong>Lorem ipsum dolor sit amet</strong> <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+            </tr>
+          </table>
+        </div>
+
+          <div>
+            <h3> // EXPERIENCIA </h3>
+            <table>
+              <tr>
+                <td> <strong> Google </strong> <br> 2013-2014 </td>
+                <td> <strong>Lorem ipsum dolor sit amet</strong> <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+              </tr>
+              <tr>
+                <td><strong> 1986 </strong></td>
+                <td style= "gris"> <strong>Lorem ipsum dolor sit amet</strong> <br> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</td>
+              </tr>
+            </table>
+           </div>
+      </div> <!-- fin div left -->
+
+        <div class="right">
+          <div>
+            <h3> // CONTACTO </h3>
+            <ul>
+                <li> <strong> Email: </strong> grafica.carmen.polo@gmail.com </li>
+                <li> <strong> Skype: </strong> carmen_polo </li>
+                <li> <strong> Twitter: </strong> @cpolov </li>
+                <li> <strong> Facebook: </strong> carmen_polo </li>
+            </ul>
+          </div>
+
+          <table>
+            <tr>
+              <td class="barras" colspan="5"> <strong> PHYTON </strong> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="barras" colspan="4"> <strong> HTML </strong> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="barras" colspan="3"> <strong> CSS </strong> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="barras" colspan="2"> <strong> JS </strong> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+            <tr>
+              <td class="barras" colspan="1"> <strong> PHP </strong> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+              <td> </td>
+            </tr>
+          </table>
+
+      </div> <!-- fin div right -->
+  </div> <!-- fin div main -->
+<hr>
+<footer> Lorem ipsum dolor sit amet</footer>
+  </body>
+</html>
